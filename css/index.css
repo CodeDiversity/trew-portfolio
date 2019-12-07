@@ -212,7 +212,9 @@
   color: white;
   font-size: 1.2rem;
   font-weight: bolder;
-  text-decoration: underline dotted;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 .project-row a:hover {
   color: #86a2d3;
