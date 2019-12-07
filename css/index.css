@@ -326,7 +326,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -334,15 +334,18 @@ table {
   border-spacing: 0;
 }
 * {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  background: #9d50bb;
 }
 body {
-  background: #9D50BB;
+  background: #9d50bb;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);
+  background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6E48AA, #9D50BB);
+  background: linear-gradient(to right, #6e48aa, #9d50bb);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .main-container {
