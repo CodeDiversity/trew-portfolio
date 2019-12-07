@@ -219,6 +219,54 @@
 .project-row a:hover {
   color: #86a2d3;
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  background-color: #1b1d23;
+  padding: 25px;
+  padding-top: 35px;
+  border-radius: 5px;
+}
+@media only screen and (max-width:750px) {
+  .contact {
+    width: 80%;
+    padding-top: 10px;
+  }
+}
+.contact img {
+  width: 90%;
+}
+.contact h2 {
+  color: aliceblue;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: max-content;
+  border-bottom: 2px solid aliceblue;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.contact h3 {
+  font-size: 1.8rem;
+  color: aliceblue;
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: center;
+}
+.contact p {
+  color: aliceblue;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  width: 75%;
+}
+@media only screen and (max-width:750px) {
+  .contact p {
+    width: 90%;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
