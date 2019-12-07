@@ -20,7 +20,7 @@
   font-size: 1.4rem;
 }
 .nav a:hover {
-  color: blue;
+  color: #86a2d3;
 }
 .cta-welcome {
   display: flex;
@@ -28,8 +28,8 @@
   height: 100%;
   width: 70%;
   align-items: center;
-  padding-bottom: 50px;
-  margin-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 10px;
 }
 .cta {
   width: 100%;
@@ -49,21 +49,22 @@
   color: #461e44;
   font-size: 2.6rem;
   width: 50%;
-  padding-top: 50px;
+  padding-top: 25px;
   font-weight: bold;
   line-height: 1.25;
   text-align: center;
   color: aliceblue;
 }
 .cta button {
-  margin-top: 50px;
-  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
   margin-bottom: 10px;
   border-radius: 5px;
   background-color: #280130;
   color: aliceblue;
   font-size: 1.4rem;
-  padding: 10px;
+  padding: 20px;
 }
 .about {
   display: flex;
@@ -73,7 +74,7 @@
   background-color: #1b1d23;
   padding: 25px;
   border-radius: 5px;
-  padding-top: 50px;
+  padding-top: 35px;
 }
 .about .about-container {
   width: 100%;
@@ -83,7 +84,7 @@
 }
 .about h2 {
   color: aliceblue;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: bolder;
   margin-bottom: 30px;
   width: max-content;
@@ -109,7 +110,7 @@
   width: 60%;
   background-color: #1b1d23;
   padding: 25px;
-  padding-top: 50px;
+  padding-top: 35px;
   border-radius: 5px;
 }
 .projects img {
@@ -117,7 +118,7 @@
 }
 .projects h2 {
   color: aliceblue;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: bolder;
   margin-top: 20px;
   margin-bottom: 30px;
