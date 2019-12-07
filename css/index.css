@@ -168,6 +168,7 @@
   width: max-content;
   border-bottom: 2px solid aliceblue;
   padding-bottom: 10px;
+  text-align: center;
 }
 .projects h3 {
   font-size: 1.8rem;
