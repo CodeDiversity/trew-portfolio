@@ -73,10 +73,10 @@
   background-color: #1b1d23;
   padding: 25px;
   border-radius: 5px;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 .about .about-container {
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,7 @@
   padding-bottom: 10px;
 }
 .about #code {
-  width: 70%;
+  width: 90%;
   height: auto;
 }
 .about p {
@@ -109,17 +109,17 @@
   width: 60%;
   background-color: #1b1d23;
   padding: 25px;
+  padding-top: 50px;
   border-radius: 5px;
-  padding-top: 75px;
-  border: 2px solid blue;
 }
 .projects img {
-  width: 100%;
+  width: 90%;
 }
 .projects h2 {
   color: aliceblue;
   font-size: 3rem;
   font-weight: bolder;
+  margin-top: 20px;
   margin-bottom: 30px;
   width: max-content;
   border-bottom: 2px solid aliceblue;
@@ -134,8 +134,27 @@
 .projects p {
   color: aliceblue;
   line-height: 1.65;
-  width: 80%;
   font-size: 1.2rem;
+  width: 75%;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 30px 0;
+}
+.project-row a {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-decoration: underline dotted;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
