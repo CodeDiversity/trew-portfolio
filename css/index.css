@@ -345,10 +345,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  font-family: "Roboto", sans-serif;
-  font-family: "Open Sans", sans-serif;
-}
 html {
   background: #9d50bb;
 }
@@ -356,6 +352,7 @@ body {
   background: #9d50bb;
   background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
   background: linear-gradient(to right, #6e48aa, #9d50bb);
+  font-family: 'Josefin Sans', sans-serif;
 }
 .main-container {
   width: 100%;
