@@ -112,6 +112,7 @@
 @media only screen and (max-width:750px) {
   .about {
     width: 80%;
+    padding-top: 10px;
   }
 }
 .about .about-container {
@@ -154,6 +155,7 @@
 @media only screen and (max-width:750px) {
   .projects {
     width: 80%;
+    padding-top: 10px;
   }
 }
 .projects img {
