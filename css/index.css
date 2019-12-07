@@ -51,6 +51,9 @@
   padding-bottom: 30px;
   margin-top: 10px;
 }
+.cta-welcome a {
+  text-decoration: none;
+}
 @media only screen and (max-width:750px) {
   .cta-welcome {
     width: 100%;
