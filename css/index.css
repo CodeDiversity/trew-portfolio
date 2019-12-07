@@ -95,12 +95,47 @@
   height: auto;
 }
 .about p {
-  width: 70%;
+  width: 80%;
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.65;
   color: aliceblue;
   margin-top: 30px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  background-color: #1b1d23;
+  padding: 25px;
+  border-radius: 5px;
+  padding-top: 75px;
+  border: 2px solid blue;
+}
+.projects img {
+  width: 100%;
+}
+.projects h2 {
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  width: max-content;
+  border-bottom: 2px solid aliceblue;
+  padding-bottom: 10px;
+}
+.projects h3 {
+  font-size: 1.8rem;
+  color: aliceblue;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.projects p {
+  color: aliceblue;
+  line-height: 1.65;
+  width: 80%;
+  font-size: 1.2rem;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
