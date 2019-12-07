@@ -7,17 +7,37 @@
   position: fixed;
   z-index: 10;
 }
+@media only screen and (max-width:750px) {
+  .nav-container {
+    height: 150px;
+    position: initial;
+    align-items: center;
+  }
+}
 .nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 40%;
+  width: 100%;
   height: 50px;
+}
+@media only screen and (max-width:750px) {
+  .nav {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
 }
 .nav a {
   text-decoration: none;
   color: aliceblue;
   font-size: 1.4rem;
+}
+@media only screen and (max-width:750px) {
+  .nav a {
+    padding: 5px;
+    font-size: 1.8rem;
+  }
 }
 .nav a:hover {
   color: #86a2d3;
@@ -30,6 +50,11 @@
   align-items: center;
   padding-bottom: 30px;
   margin-top: 10px;
+}
+@media only screen and (max-width:750px) {
+  .cta-welcome {
+    width: 100%;
+  }
 }
 .cta {
   width: 100%;
@@ -55,6 +80,11 @@
   text-align: center;
   color: aliceblue;
 }
+@media only screen and (max-width:750px) {
+  .cta p {
+    width: 75%;
+  }
+}
 .cta button {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -75,6 +105,11 @@
   padding: 25px;
   border-radius: 5px;
   padding-top: 35px;
+}
+@media only screen and (max-width:750px) {
+  .about {
+    width: 80%;
+  }
 }
 .about .about-container {
   width: 100%;
@@ -112,6 +147,11 @@
   padding: 25px;
   padding-top: 35px;
   border-radius: 5px;
+}
+@media only screen and (max-width:750px) {
+  .projects {
+    width: 80%;
+  }
 }
 .projects img {
   width: 90%;
