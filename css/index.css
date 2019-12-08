@@ -111,8 +111,7 @@
   width: 60%;
   background-color: #1b1d23;
   padding: 25px;
-  border-radius: 5px;
-  padding-top: 65px;
+  padding-top: 50px;
 }
 @media only screen and (max-width:750px) {
   .about {
@@ -128,9 +127,9 @@
 }
 .about h2 {
   color: aliceblue;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bolder;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   width: max-content;
   border-bottom: 2px solid aliceblue;
   padding-bottom: 10px;
@@ -145,7 +144,7 @@
   font-size: 1.2rem;
   line-height: 1.65;
   color: aliceblue;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .projects {
   display: flex;
@@ -155,7 +154,6 @@
   background-color: #1b1d23;
   padding: 25px;
   padding-top: 35px;
-  border-radius: 5px;
 }
 @media only screen and (max-width:750px) {
   .projects {
@@ -168,10 +166,10 @@
 }
 .projects h2 {
   color: aliceblue;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bolder;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   width: max-content;
   border-bottom: 2px solid aliceblue;
   padding-bottom: 10px;
@@ -181,7 +179,8 @@
   font-size: 1.8rem;
   color: aliceblue;
   font-weight: bold;
-  margin: 20px 0px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .projects p {
@@ -227,7 +226,6 @@
   background-color: #1b1d23;
   padding: 25px;
   padding-top: 35px;
-  border-radius: 5px;
 }
 @media only screen and (max-width:750px) {
   .contact {
@@ -240,7 +238,7 @@
 }
 .contact h2 {
   color: aliceblue;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bolder;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -271,6 +269,7 @@
   font-size: 1.2rem;
   color: aliceblue;
   line-height: 1.65;
+  padding: 5px;
 }
 .contact .contact-form {
   width: 65%;
