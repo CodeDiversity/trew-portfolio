@@ -111,7 +111,8 @@
   width: 60%;
   background-color: #1b1d23;
   padding: 25px;
-  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-top: 55px;
 }
 @media only screen and (max-width:750px) {
   .about {
@@ -152,8 +153,7 @@
   align-items: center;
   width: 60%;
   background-color: #1b1d23;
-  padding: 25px;
-  padding-top: 35px;
+  padding: 35px 25px 0px 25px;
 }
 @media only screen and (max-width:750px) {
   .projects {
@@ -169,7 +169,7 @@
   font-size: 2rem;
   font-weight: bolder;
   margin-top: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: max-content;
   border-bottom: 2px solid aliceblue;
   padding-bottom: 10px;
@@ -179,8 +179,8 @@
   font-size: 1.8rem;
   color: aliceblue;
   font-weight: bold;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
 }
 .projects p {
@@ -205,7 +205,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .project-row a {
   color: white;
