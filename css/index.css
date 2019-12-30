@@ -333,6 +333,11 @@
   color: white;
   line-height: 1.66;
 }
+@media only screen and (max-width:750px) {
+  .privacy-policy {
+    width: 75%;
+  }
+}
 .privacy-policy a {
   color: white;
 }
